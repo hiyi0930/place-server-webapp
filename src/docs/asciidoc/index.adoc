@@ -1,0 +1,100 @@
+:snippets: ../../../build/generated-snippets
+
+= API 가이드
+
+
+== Member Login
+
+=== Request
+
+==== 예시
+
+include::{snippets}/member-login/http-request.adoc[]
+
+==== 요청 변수
+
+include::{snippets}/member-login/request-parameters.adoc[]
+
+=== Response
+
+==== 예시
+
+include::{snippets}/member-login/response-body.adoc[]
+
+==== 응답 데이터
+
+include::{snippets}/member-login/response-fields.adoc[]
+
+
+== Refresh Access Token
+
+=== Request
+
+==== 예시
+
+include::{snippets}/member-token-access/http-request.adoc[]
+
+==== Header 정보
+
+include::{snippets}/member-token-access/request-headers.adoc[]
+
+=== Response
+
+==== 예시
+
+include::{snippets}/member-token-access/response-body.adoc[]
+
+==== 응답 데이터
+
+include::{snippets}/member-token-access/response-fields.adoc[]
+
+
+== Place Search
+
+=== Request
+
+==== 예시
+
+include::{snippets}/place-search/http-request.adoc[]
+
+==== Header 정보
+
+include::{snippets}/place-search/request-headers.adoc[]
+
+==== 요청 변수
+
+include::{snippets}/place-search/request-parameters.adoc[]
+
+=== Response
+
+==== 예시
+
+include::{snippets}/place-search/response-body.adoc[]
+
+==== 응답 데이터
+
+include::{snippets}/place-search/response-fields.adoc[]
+
+
+== Top Keyword
+
+=== Request
+
+==== 예시
+
+include::{snippets}/top-keyword/http-request.adoc[]
+
+==== Header 정보
+
+include::{snippets}/top-keyword/request-headers.adoc[]
+
+
+=== Response
+
+==== 예시
+
+include::{snippets}/top-keyword/response-body.adoc[]
+
+==== 응답 데이터
+
+include::{snippets}/top-keyword/response-fields.adoc[]

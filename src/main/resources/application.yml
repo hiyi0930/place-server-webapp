@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: none
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+
+kakao:
+  api:
+    key: a91513bad3749254e9461b019fdbc647
