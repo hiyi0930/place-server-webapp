@@ -8,7 +8,7 @@
 ## 개발 환경
 - 기본 환경
     - Server
-        - Java 11
+        - Kotlin (target version 11)
         - Spring Boot
         - JPA
         - H2
